@@ -21,7 +21,7 @@
     var map = $('#map');
     map.tinyMap({
         'zoom': 16,
-        'center': [loc.coords.latitude, loc.coords.longitude],
+        'center': ['loc.coords.latitude', 'loc.coords.longitude'],
         'autoLocation': function(loc) {
             if ('coords' in loc) {
                 // var des = taipei101;
