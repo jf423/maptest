@@ -43,6 +43,15 @@
         height: 400px;
 
     }
+    .button {
+		width: 55px;height: 40px;
+        position: absolute;
+        top: 90%;
+        left: 50%;
+        margin-left: 94px;
+
+
+    }	
     </style>
 </head>
 
@@ -63,6 +72,7 @@
               <!--   <p><button class="btn btn-md btn-warning" onclick="#map">
                     導航</button></p> -->
                     <iframe class="map"src="map.html"></iframe>
+<input class="button" type="button" name="button" value="重新導航" onclick="mp.window.location.reload()">
 					<!-- <p><button class="btn btn-md btn-warning" onclick="getLocation()">
 					現在位置</button></p>
 				<div id="mapholder"></div>
